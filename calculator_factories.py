@@ -42,6 +42,3 @@ class CalculatorApp(MDApp):
         self.title = 'Calculadora'
         self.theme_cls.theme_style = 'Dark'
         return Builder.load_file('main.kv')
-
-
-CalculatorApp().run()
